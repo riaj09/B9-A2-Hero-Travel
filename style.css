@@ -4,16 +4,65 @@
     font-family: 'Mulish', sans-serif;
 }
 
-.viewing-front {
-    background-image: url(Group\ 13\ \(1\)\ \(1\).png);
-    background-image: repeat(none);
-}
-
 .input-iteams {
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    /* width: 174px;
+    height: 52px; */
 }
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    background-image: url('Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    color: white;
+}
+
+.web-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.web-description {
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#travel-logo,
+#home {
+    color: #FF5400;
+}
+
 
 .btn-family {
     border-radius: 8px;
@@ -46,7 +95,88 @@
     gap: 10px;
     align-items: center;
 }
+
 .third-row {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.box {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    color: #FBB56333;
+}
+
+.deal-&-discount,
+.deal-&-discount-title,
+.deal-&-discount-description {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#See-All-Packages {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 210px;
+    height: 52px;
+    border: 0;
+}
+
+.mountain-in-bd {
+    display: flex;
+}
+
+#subscribe-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+.news-letter {
+    display: flex;
+}
+
+.box-content {
+    width: 474px;
+    height: 422px;
+    border: 1px solid #FF5400;
+    background: #FFF;
+    color: #131318;
+}
+
+span {
+    color: #FF5400;
+}
+
+.last-section {
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    width: 1440px;
+    height: 502px;
+}
+
+#end-part {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
 }
